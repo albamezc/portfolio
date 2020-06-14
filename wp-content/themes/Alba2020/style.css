@@ -1,0 +1,141 @@
+/*
+Theme Name:   Alba2020
+Description:  Theme made by Alba Mezcua based on TwentyTwenty by Wordpress.
+Author:       albamezcua
+Author URL:   
+Template:     twentytwenty
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  Alba2020
+*/
+
+/* Write here your own personal stylesheet */
+
+/* Fuente */
+* {
+	font-family: montserrat !important;
+}
+ul.primary-menu a {
+	font-weight: 600;
+	color: black !important;
+	font-size: 16px
+}
+
+/*H6 en caps*/
+  h6 {
+		text-transform: uppercase;
+	}
+
+/* Ocultar el título */
+.entry-header {
+    display: none;
+}
+
+/* Imagen COVER */
+.wp-block-image {
+  margin-top: 2px !important;
+}
+h5.has-text-align-center {
+    margin: 2rem auto 1rem;
+}
+
+/* HOME (Proyectos): margen vertical*/
+.page-id-230 figure {
+	margin-bottom: 16px !important;
+}
+
+.page-id-416 figure {
+	margin-bottom: 16px !important;
+}
+
+/* HOME (Proyectos): Show figcaption on hover */
+figcaption {
+	font-family: montserrat;
+	font-weight: 400;
+	font-size: 14px !important;
+}
+
+figure.hover-caption-display {
+	position: relative;
+}
+
+figure.hover-caption-display > figcaption {
+	visibility: hidden;
+	opacity: .5;
+	transition: opacity .5s ease-out;
+}
+
+figure.hover-caption-display:hover > figcaption {
+	visibility: visible;
+  opacity: 1;
+}
+
+/* Párrafo: enlaces en bold, alineación justificada */
+p a{
+	font-weight: 600;
+}
+
+/* About me/Sobre mí: texto justificado */
+.page-id-580 p {
+	text-align: justify
+}
+
+.page-id-574 p {
+	text-align: justify
+}
+
+
+/* Enlaces previous/next project */
+hr.styled-separator {
+	display: none;
+}
+nav.pagination-single {
+	margin-top: 1rem;
+}
+a.next-post span.title {
+	font-family: Montserrat;
+	font-size: 16px;
+	color: black;
+}
+a.next-post span.arrow {
+	font-size: 16px;
+	color: black;
+}
+a.previous-post span.title {
+	font-family: Montserrat;
+	font-size: 16px;
+	color: black;
+}
+a.previous-post span.arrow {
+	font-size: 16px;
+	color: black;
+}
+
+/* Footer RRSS, "ir arriba" */
+.footer-widgets {
+	width: 100%;
+	}
+
+aside.footer-widgets-outer-wrapper {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+a.to-the-top {
+	font-size: 14px;
+}
+
+/* Formulario contacto */
+form {
+	font-size: 0.8rem;
+}
+input,
+textarea {
+	font-size: 12px !important;
+	color: grey;
+	font-family: Montserrat;
+}
+input submit {
+  background-color: grey;
+}
